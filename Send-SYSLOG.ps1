@@ -7,7 +7,7 @@ function Send-SYSLOG
     Send-SYSLOG -MessageID "SUBJECT" `
         -Message "TEST" `
         -Severity 'Informational' -Facility 'logaudit' `
-        -ApplicationName "TestScript" -Server "209.29.2.168" -Hostname "IPOFHOSTRETRIVEDINFOFROM"
+        -ApplicationName "TestScript" -Server "409.49.4.148" -Hostname "IPOFHOSTRETRIVEDINFOFROM"
 
     #>
     [CMDLetBinding(DefaultParameterSetName = 'RFC5424')]
