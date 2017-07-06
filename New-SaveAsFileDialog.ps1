@@ -1,5 +1,5 @@
 ﻿# Retrive the name of file from user (v1)
-function SaveFileDialog([string]$f_Title = "Enter File Name:", [string]$f_InitialDir = 'Desktop', `
+function New-SaveAsFileDialog([string]$f_Title = "Enter File Name:", [string]$f_InitialDir = 'Desktop', `
                         [string]$f_ExpectedName = ''){
     # All multi-values are semi-colan seperated
     $SaveFileDialog = New-Object System.Windows.Forms.SaveFileDialog -Property @{
