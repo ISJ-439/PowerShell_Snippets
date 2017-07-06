@@ -1,4 +1,4 @@
-##### Current date for timestamps (v3) [Function Req: OutCLI function] ( C:\Users\t915320\Desktop\logs\PaloAlto_API_Queries\2017\Jan\02\231020 ) 
+##### Current date for timestamps (v3) [Function Req: OutCLI function] ( C:\Users\xxxxxx\Desktop\logs\PaloAlto_API_Queries\2017\Jan\02\231020 ) 
 function Get-LoggingFilePath(){
     [string]$s_ExtendedLogFolder = "$s_BaseLogFolder\$(Get-Date -uf "%Y")\$(Get-Date -Format MMM)\$(Get-Date -uf '%d')"
     if(Test-Path $s_ExtendedLogFolder){
