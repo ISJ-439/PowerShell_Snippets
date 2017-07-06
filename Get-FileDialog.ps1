@@ -1,5 +1,5 @@
-﻿# Retrive the name of files selected (v1)
-function GetFileDialog( [string]$f_Title = "Select File:", [string]$f_InitialDir = 'Desktop', `
+﻿# Retrive the name of files selected (v2)
+function Get-FileDialog( [string]$f_Title = "Select File:", [string]$f_InitialDir = 'Desktop', `
                         [bool]$f_Multiselect = $true,[string]$f_Filter = 'All (*.*)|*.*', `
                         [string]$f_ExpectedName = ''){
     # All multi-values are semi-colan seperated
