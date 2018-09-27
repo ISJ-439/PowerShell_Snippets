@@ -1,0 +1,9 @@
+### New-RandomPassword (v1)
+function New-RandomPassword ([int]$Length) {
+    $set    = "ABCDEFGHJKMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz023456789".ToCharArray()
+    $result = ""
+    for ($x = 0; $x -lt $Length; $x++) {
+        $result += $set | Get-Random
+    }
+    return $result
+}
